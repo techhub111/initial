@@ -45,6 +45,7 @@ response object:
 Example (2)  --------
 
 request method - POST
+
 url: localhost:8080/shops
 
 request object:
@@ -55,6 +56,7 @@ request object:
 }
 
 response object:
+
 {
   "shopName": "Shopping Center MyZeil",
   "shopNumber": "106",
@@ -68,6 +70,7 @@ response object:
 Example (3)  --------
 
 request method - POST
+
 url: localhost:8080/shops
 
 request object:
@@ -93,6 +96,7 @@ response object:
 Example (4)  -------
 
 request method - POST
+
 url: localhost:8080/shops
 
 request object:
@@ -118,6 +122,7 @@ response object:
 Example (5)  --------
 
 request method - POST
+
 url: localhost:8080/shops
 
 request object:
@@ -128,6 +133,7 @@ request object:
 }
 
 response object:
+
 {
   "shopName": "Burlington Arcade",
   "shopNumber": "51",
@@ -141,6 +147,7 @@ response object:
 Example (6)  -------
 
 request method - POST
+
 url: localhost:8080/shops
 
 request object:
@@ -152,6 +159,7 @@ request object:
 }
 
 response object:
+
 {
   "shopName": "Alexa",
   "shopNumber": "20",
@@ -169,13 +177,19 @@ Find closest Shop - (GET):
 
 
 Example (1)  -------
+
 request method - GET
+
 url-             localhost:8080/closest/50.11/8.68
 
-Example (2)  find me closet shop from Heathrow Airport (LHR)
+Example (2)  find me closet shop from Heathrow Airport (LHR) --
+
 request method - GET
+
 url-             localhost:8080/closest/51.4700256/-0.4564842
 
-Example (3)  find me closet shop from Berlin Tegel Airport
+Example (3)  find me closet shop from Berlin Tegel Airport --
+
 request method - GET
+
 url-             localhost:8080/closest/52.5580555556/13.2847222222
