@@ -14,13 +14,11 @@ To Run:
 step 1: cmd to \retailmanagerapi\build\libs:
 step 2: java -jar retailmanagerapi-0.0.1-SNAPSHOT
 
-***************** API Information ******************
-=========================================
-=========================================
+******* API Information ********
+
 Create Shop - (POST):
-=========================================
-=========================================
-Example (1)  ----------------------------
+
+Example (1)  --------
 
 request method - POST
 url: localhost:8080/shops
@@ -44,7 +42,7 @@ response object:
   "place_id": "ChIJJwNc2aoEdkgRT744EaBS3pk"
 }
 
-Example (2)  ---------------------------------------------------------------------------------------
+Example (2)  --------
 
 request method - POST
 url: localhost:8080/shops
@@ -67,7 +65,7 @@ response object:
   "place_id": "ChIJZ3J6h68OvUcRzh3B4yQX1So"
 }
 
-Example (3)  ---------------------------------------------------------------------------------------
+Example (3)  --------
 
 request method - POST
 url: localhost:8080/shops
@@ -92,7 +90,7 @@ response object:
   "place_id": "ChIJoRX0cgrhvkcR9c5dEuTNxZE"
 }
 
-Example (4)  ---------------------------------------------------------------------------------------
+Example (4)  -------
 
 request method - POST
 url: localhost:8080/shops
@@ -117,7 +115,7 @@ response object:
   "place_id": "ChIJJQiE0fZ2nkcRhzwtwtVKqv8"
 }
 
-Example (5)  ---------------------------------------------------------------------------------------
+Example (5)  --------
 
 request method - POST
 url: localhost:8080/shops
@@ -140,7 +138,7 @@ response object:
   "place_id": "ChIJjyvv_9UEdkgRUrbU725BBf4"
 }
 
-Example (6)  ---------------------------------------------------------------------------------------
+Example (6)  -------
 
 request method - POST
 url: localhost:8080/shops
@@ -166,12 +164,11 @@ response object:
 
 
 
-=========================================
-=========================================
+
 Find closest Shop - (GET):
-=========================================
-=========================================
-Example (1)  ----------------------------
+
+
+Example (1)  -------
 request method - GET
 url-             localhost:8080/closest/50.11/8.68
 
