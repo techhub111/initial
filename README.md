@@ -16,7 +16,7 @@ step 2: java -jar retailmanagerapi-0.0.1-SNAPSHOT
 
 ******* API Information ********
 
-Create Shop - (POST):
+************ Create Shop - (POST):
 
 Example (1)  --------
 
@@ -173,7 +173,7 @@ response object:
 
 
 
-Find closest Shop - (GET):
+************ Find closest Shop - (GET):
 
 
 Example (1)  -------
